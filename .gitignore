@@ -1,18 +1,13 @@
-# Build and Release Folders
-bin-debug/
-bin-release/
-[Oo]bj/
-[Bb]in/
+sentence=input("enter sentence")
+print(sentence)
+lst=sentence.split()
+print(lst)
+if lst[0]=="What":
+    print("Type:What")
+if lst[0]=="When":
+    print("Type:When")
+if lst[0]=="Is":
+    print("Type:Affirmation")
+else:
+    print("Type:Unknown")
 
-# Other files and folders
-.settings/
-
-# Executables
-*.swf
-*.air
-*.ipa
-*.apk
-
-# Project files, i.e. `.project`, `.actionScriptProperties` and `.flexProperties`
-# should NOT be excluded as they contain compiler settings and other important
-# information for Eclipse / Flash Builder.
